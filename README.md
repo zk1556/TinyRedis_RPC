@@ -67,11 +67,10 @@ ___
 
 ### 服务端
 
-![服务端](img/服务端.png)
+![服务端](https://github.com/zk1556/TinyRedis_RPC/blob/main/img/%E6%9C%8D%E5%8A%A1%E7%AB%AF.png)
 
 ### 客户端
-
-![客户端](img/服务端.png)
+![客户端](https://github.com/zk1556/TinyRedis_RPC/blob/main/img/%E5%AE%A2%E6%88%B7%E7%AB%AF.png)
 
 
 ## 参考
