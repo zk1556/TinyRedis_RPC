@@ -2,7 +2,7 @@
 
   Linux下C++实现的基于RPC框架的轻量级Redis，主要实现以下功能：
 - **RPC框架**：函数映射采用map和function实现，序列化和反序列化采用字节流实现，网路传输采用ZeroMQ。
-- **数据持久化**：服务器关闭时，通过捕获信号实现数据自动保存到磁盘，支持多个数据库文件。
+- **数据持久化**：服务器关闭时，通过捕获信号实现数据自动保存到磁盘，支持选择多个数据库文件。
 - **支持事务功能**：支持事务的执行和撤销，提供回滚操作。
 - **跳表**：底层采用跳表，实现多种数据类型，包括字符串、列表、哈希表等。
 - **命令解析**：命令解析，采用享元模式实现不同指令的解析： select、set、setnx、get、keys、exists、del、incr、incrby、incrbyfloat、decr、decrby、mset、mget、strlen append、multi、exec、discard、lpush、rpush、lpop、rpop、lrange、hset、hget、hdel、hkeys、hvals。
