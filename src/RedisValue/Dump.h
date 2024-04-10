@@ -1,7 +1,7 @@
 #ifndef DUMP_H
 #define DUMP_H
-#include<string>
 #include<cmath>
+#include<string>
 #include"RedisValue.h"
 
 // 表示null值
