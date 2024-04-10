@@ -5,7 +5,7 @@
 #include <vector>
 #include "SkipList.h" 
 #include "RedisValue/RedisValue.h"
-#define DEFAULT_DB_FOLDER "data_files"
+//#define DEFAULT_DB_FOLDER "data_files"
 #define DATABASE_FILE_NAME "db"
 #define DATABASE_FILE_NUMBER 15
 //增删改查操作
